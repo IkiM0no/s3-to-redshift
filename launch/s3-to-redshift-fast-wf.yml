@@ -1,24 +1,19 @@
 run:
-  type: docker
+  type: workflow
 env:
 - AWS_REGION
-- AWS_ACCESS_KEY_ID
-- AWS_SECRET_ACCESS_KEY
-- GEARMAN_ADMIN_USER
-- GEARMAN_ADMIN_PASS
-- GEARMAN_ADMIN_PATH
+- REDSHIFT_AWS_ID
+- REDSHIFT_AWS_KEY
 - REDSHIFT_USER
 - REDSHIFT_PASSWORD
 - REDSHIFT_PORT
 - REDSHIFT_HOST
 - REDSHIFT_DB
-- REDSHIFT_ROLE_ARN
-- VACUUM_WORKER
 - WORKER_NAME
+- VACUUM_WORKER
 dependencies:
-- gearmand
 - gearman-admin
-team: eng-ip
 resources:
   cpu: 0.05
   max_mem: 0.05
+team: eng-ip

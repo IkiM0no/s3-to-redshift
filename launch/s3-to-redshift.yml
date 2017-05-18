@@ -1,5 +1,5 @@
 run:
-  type: workflow
+  type: docker
 env:
 - AWS_REGION
 - AWS_ACCESS_KEY_ID
@@ -22,4 +22,3 @@ team: eng-ip
 resources:
   cpu: 0.05
   max_mem: 0.05
-team: eng-ip
