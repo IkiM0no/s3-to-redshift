@@ -10,6 +10,9 @@ env:
 - REDSHIFT_HOST
 - REDSHIFT_DB
 - VACUUM_WORKER
+- GEARMAN_ADMIN_USER
+- GEARMAN_ADMIN_PASS
+- GEARMAN_ADMIN_PATH
 dependencies:
 - gearman-admin
 resources:
