@@ -1,5 +1,6 @@
 run:
   type: workflow
+use_assume_role: true
 env:
 - AWS_REGION
 - REDSHIFT_AWS_ID
