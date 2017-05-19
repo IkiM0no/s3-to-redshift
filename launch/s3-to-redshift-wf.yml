@@ -9,7 +9,6 @@ env:
 - REDSHIFT_PORT
 - REDSHIFT_HOST
 - REDSHIFT_DB
-- WORKER_NAME
 - VACUUM_WORKER
 dependencies:
 - gearman-admin
